@@ -17,5 +17,5 @@ Ejecute el cliente MySQL:
 
 - `docker-compose exec db mysql -u root -p` 
 
-Se agregp en la carpeta Coleccion los endpoints para consumir :
+Se agrega en la carpeta Coleccion los endpoints para consumir
 
