@@ -9,9 +9,8 @@ docker-compose up -d
 ```
 
 Abra phpmyadmin en [http://127.0.0.1:8000](http://127.0.0.1:8000)
-Abra el navegador web para ver el proyecto php en   [http://127.0.0.1:8080](http://127.0.0.1:8080)
 
-Clone YourProject en `www/` y luego abra la web  [http://127.0.0.1/YourProject](http://127.0.0.1/YourProject)
+Abra el navegador web para ver el proyecto php en   [http://127.0.0.1:8080/public/usuarios](http://127.0.0.1:8080/public/usuarios)
 
 Ejecute el cliente MySQL:
 
