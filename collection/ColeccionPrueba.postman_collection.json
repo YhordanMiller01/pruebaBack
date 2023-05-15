@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "3e26a016-dbc7-49fa-9433-237611492401",
+		"name": "ColeccionPrueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "592672"
+	},
+	"item": [
+		{
+			"name": "usuarios find all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/public/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"public",
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "usuarios create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"nombre\":\"yhordan\",\n\"apellido\":\"miller\",\n\"edad\" :30,\n\"foto\" :\"fotomia.jpg\",\n\"tipo_documento\" :\"c\",\n\"rol\" :2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/public/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"public",
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "usuarios/id Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"nombre\":\"yhordan2\",\n\"apellido\":\"miller\",\n\"edad\" :25,\n\"foto\" :\"fotomia.jpg\",\n\"tipo_documento\" :\"c\",\n\"rol\" :1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/public/usuarios/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"public",
+						"usuarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "usuarios/id Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "4",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/public/usuarios/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"public",
+						"usuarios",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

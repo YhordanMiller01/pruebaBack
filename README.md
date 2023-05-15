@@ -16,3 +16,6 @@ Clone YourProject en `www/` y luego abra la web  [http://127.0.0.1/YourProject](
 Ejecute el cliente MySQL:
 
 - `docker-compose exec db mysql -u root -p` 
+
+Se agregp en la carpeta Coleccion los endpoints para consumir :
+
