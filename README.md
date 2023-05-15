@@ -1,4 +1,4 @@
-# docker-lamp
+# docker-info
 
 Docker con Apache, MySQL 8.0, PHPMyAdmin y PHP.
 
